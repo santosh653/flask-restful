@@ -5,76 +5,99 @@ matrix:
     - python: 2.7
       dist: trusty
       env: FLASK=0.10
+      arch: amd64
     - python: 2.7
       dist: trusty
       env: FLASK=0.12
+      arch: amd64
     - python: 2.7
       dist: trusty
       env: FLASK=1.0.2
+      arch: amd64
     - python: 3.4
       dist: trusty
       env: FLASK=0.10
+      arch: amd64
     - python: 3.4
       dist: trusty
       env: FLASK=0.12
+      arch: amd64
     - python: 3.4
       dist: trusty
       env: FLASK=1.0.2
+      arch: amd64
     - python: 3.5
       dist: trusty
       env: FLASK=0.10
+      arch: amd64
     - python: 3.5
       dist: trusty
       env: FLASK=0.12
+      arch: amd64
     - python: 3.5
       dist: trusty
       env: FLASK=1.0.2
+      arch: amd64
     - python: 3.6
       dist: trusty
       env: FLASK=0.10
+      arch: amd64
     - python: 3.6
       dist: trusty
       env: FLASK=0.12
+      arch: amd64
     - python: 3.6
       dist: trusty
       env: FLASK=1.0.2
+      arch: amd64
     - python: 3.7
       dist: xenial
       env: FLASK=0.10
+      arch: amd64
     - python: 3.7
       dist: xenial
       env: FLASK=0.12
+      arch: amd64
     - python: 3.7
       dist: xenial
       env: FLASK=1.0.2
+      arch: amd64
     - python: 3.8
       dist: xenial
       env: FLASK=0.10
+      arch: amd64
     - python: 3.8
       dist: xenial
       env: FLASK=0.12
+      arch: amd64
     - python: 3.8
       dist: xenial
       env: FLASK=1.0.2
+      arch: amd64
     - python: pypy
       dist: trusty
       env: FLASK=0.10
+      arch: amd64
     - python: pypy
       dist: trusty
       env: FLASK=0.12
+      arch: amd64
     - python: pypy
       dist: trusty
       env: FLASK=1.0.2
+      arch: amd64
     - python: pypy3
       dist: trusty
       env: FLASK=0.10
+      arch: amd64
     - python: pypy3
       dist: trusty
       env: FLASK=0.12
+      arch: amd64
     - python: pypy3
       dist: trusty
       env: FLASK=1.0.2
-
+      arch: amd64
 install:
   - pip install -q Flask==$FLASK
   - pip install coveralls
